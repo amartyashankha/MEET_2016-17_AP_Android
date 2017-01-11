@@ -3,6 +3,8 @@ Android App Development Advanced project guide for MEET 2016-2017
 
 We will be following the Udacity course at <https://www.udacity.com/course/new-android-fundamentals--ud851>. Go ahead and create an account on Udacity and check out the material.
 
+Clone Repo
+
 ##Installing Android SDK
 
 Begin by downloading Android Studio from <https://developer.android.com/studio/index.html>. and then follow the installation instructions in <https://developer.android.com/studio/install.html> to install the SDK.
@@ -19,5 +21,5 @@ The first few lectures (under first lesson `Create Project Sunshine`) in the cou
 
 
 
-    Objective: By the end of this section, you should have a simple app running on your emulator.
+    Objecive: By the end of this section, you should have a simple app running on your emulator.
 
