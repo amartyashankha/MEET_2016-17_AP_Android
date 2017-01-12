@@ -33,9 +33,16 @@
 
     </LinearLayout>
 
-    <FrameLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/cheat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cheat_button" />
 
         <Button
             android:text="@string/next_button"
@@ -43,6 +50,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/next_button"
             android:layout_weight="1" />
-    </FrameLayout>
+    </LinearLayout>
 
 </LinearLayout>
