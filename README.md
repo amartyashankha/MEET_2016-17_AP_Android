@@ -1,4 +1,5 @@
 <link href="markdown.css" rel="stylesheet"></link>
+<link href="img_style.css" rel="stylesheet"></link>
 
 # MEET_2016-17_AP_Android
 Android App Development Advanced project guide for MEET 2016-2017
@@ -13,7 +14,9 @@ Nerd Ranch Guide. Install epub reader.
 
 Begin by downloading [Android Studio](https://developer.android.com/studio/index.html). and then follow the installation instructions in <https://developer.android.com/studio/install.html> to install the SDK.
 
-*Note:* You will need to install some packages first. On Ubuntu, run `sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386` in the terminal.
+*Note:* You will need to install some packages first. On Ubuntu, run  in the terminal.
+
+    sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 
 ##Getting Started
 
@@ -36,14 +39,30 @@ Exercise Scrolling Weather : Use dummy list of data. Get reference to the *TextV
 
     Objective: By the end of this section, you should be able to manipulate the basic View elements and create custom Layouts. 
 
-![alt](LayoutBasics/ScrollingWeatherList.png)
+![Scrolling Weather App](LayoutBasics/ScrollingWeatherList.png)
 
 ##Listeners and Toasts
 
-Our first app
+For this section we will create a new app. You should refer to the Nerd Ranch Guide Chapter 1. You have already seen how to create a basic application and add UI elements. The first steps are to create a basic layout. You can customize this and make it more elaborate if you want. Pay special attention to the section on `Creating String Resources`. After this, you will set IDs for each of your UI elements (in `Resources and Resource IDs`). As before, you will use these IDs to reference View objects later on.
 
-##Dynamic Views (Model-View-Controller
-Nerd Ranch Guide Chapter 3 up to *Updating the Controller View*
+The next section (`Wiring up Widgets`) shows you how to get the references to the Buttons and then elaborates how to set up listeners for click events from the buttons. Finally, complete the section on Toasts and you should have a working app with a single quiz question.
 
-##Logging and Debugging
+##Dynamic Views (Model-View-Controller)
+
+In this section we will be coering the material in the Nerd Ranch Guide Chapter 2 up to *Updating the Controller View*. You will continue to work on the quiz app by adding more questions. The objective is to update the view so that it displays a new question upon pressing a *Next* button.
+
+##Activity Lifecycle
+In order to understand the basics of Activity lifecycles, watch the first four lectures in the *lifecycle* section of the Udacity course.
+
+* [Introduction](https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/a7da9a33-219c-4b9b-9c01-cccaf51583e8#)
+* [Why we Need ...](https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/aaa47e59-22b9-42b3-a89f-f8526c8db37f)
+* [Android Activity lifecycle](https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/36769da8-9092-4342-b3b4-451aaa2cc80e#)
+* [Reto](https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/9f8e379f-8bcc-419a-849f-4307eefbd047#)
+
+##Adding more Activities
+
+Now, we will go through Chapter 5 of the Nerd Wranch Guide. Here, you will learn how to add more activities to your app. Specifically, we will add a `Cheat` button to your quiz app from two sections ago. This will provide the answer to a question on a new page (Activity). To accomplish this, you must first create a new activity for the cheat page and construct the views for it.
+
+Next, you should go thorough the sections `Starting an Activity` and `Passing Data between Activities`. These sections elaborate how to start new activities using *Intents*, and how to communicate and pass data between them using *Intent Extras*.
+
 

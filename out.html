@@ -1,4 +1,4 @@
-<p><link href="markdown.css" rel="stylesheet"></link></p>
+<p><link href="markdown.css" rel="stylesheet"></link> <link href="img_style.css" rel="stylesheet"></link></p>
 <h1 id="meet_2016-17_ap_android">MEET_2016-17_AP_Android</h1>
 <p>Android App Development Advanced project guide for MEET 2016-2017</p>
 <p>We will be following the Udacity course at <a href="https://www.udacity.com/course/new-android-fundamentals--ud851" class="uri">https://www.udacity.com/course/new-android-fundamentals--ud851</a>. Go ahead and create an account on Udacity and check out the material.</p>
@@ -6,7 +6,8 @@
 <p>Nerd Ranch Guide. Install epub reader.</p>
 <h2 id="installing-android-sdk">Installing Android SDK</h2>
 <p>Begin by downloading <a href="https://developer.android.com/studio/index.html">Android Studio</a>. and then follow the installation instructions in <a href="https://developer.android.com/studio/install.html" class="uri">https://developer.android.com/studio/install.html</a> to install the SDK.</p>
-<p><em>Note:</em> You will need to install some packages first. On Ubuntu, run <code>sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386</code> in the terminal.</p>
+<p><em>Note:</em> You will need to install some packages first. On Ubuntu, run in the terminal.</p>
+<pre><code>sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386</code></pre>
 <h2 id="getting-started">Getting Started</h2>
 <p>The first few lectures (under first lesson <code>Create Project Sunshine</code>) in the course are just basic overview and an introduction to Git. Feel free to skip ahead to <em>Creating our First project</em>. You should go through the material up to lecture 9 <em>Running your Code</em>.</p>
 <pre><code>Objective: By the end of this section, you should have a simple app running on your emulator.</code></pre>
@@ -21,11 +22,22 @@
 <p>Exercise Scrolling Weather : Use dummy list of data. Get reference to the <em>TextView</em> in <em>onCreate</em>. Loop through data, and add each entry to text view with blank lines in between. After the final exercise, you should be able to scroll through a list of your dummy data.</p>
 <pre><code>Objective: By the end of this section, you should be able to manipulate the basic View elements and create custom Layouts. </code></pre>
 <div class="figure">
-<img src="LayoutBasics/ScrollingWeatherList.png" alt="alt" />
-<p class="caption">alt</p>
+<img src="LayoutBasics/ScrollingWeatherList.png" alt="Scrolling Weather App" />
+<p class="caption">Scrolling Weather App</p>
 </div>
 <h2 id="listeners-and-toasts">Listeners and Toasts</h2>
-<p>Our first app</p>
-<h2 id="dynamic-views-model-view-controller">Dynamic Views (Model-View-Controller</h2>
-<p>Nerd Ranch Guide Chapter 3 up to <em>Updating the Controller View</em></p>
-<h2 id="logging-and-debugging">Logging and Debugging</h2>
+<p>For this section we will create a new app. You should refer to the Nerd Ranch Guide Chapter 1. You have already seen how to create a basic application and add UI elements. The first steps are to create a basic layout. You can customize this and make it more elaborate if you want. Pay special attention to the section on <code>Creating String Resources</code>. After this, you will set IDs for each of your UI elements (in <code>Resources and Resource IDs</code>). As before, you will use these IDs to reference View objects later on.</p>
+<p>The next section (<code>Wiring up Widgets</code>) shows you how to get the references to the Buttons and then elaborates how to set up listeners for click events from the buttons. Finally, complete the section on Toasts and you should have a working app with a single quiz question.</p>
+<h2 id="dynamic-views-model-view-controller">Dynamic Views (Model-View-Controller)</h2>
+<p>In this section we will be coering the material in the Nerd Ranch Guide Chapter 2 up to <em>Updating the Controller View</em>. You will continue to work on the quiz app by adding more questions. The objective is to update the view so that it displays a new question upon pressing a <em>Next</em> button.</p>
+<h2 id="activity-lifecycle">Activity Lifecycle</h2>
+<p>In order to understand the basics of Activity lifecycles, watch the first four lectures in the <em>lifecycle</em> section of the Udacity course.</p>
+<ul>
+<li><a href="https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/a7da9a33-219c-4b9b-9c01-cccaf51583e8#">Introduction</a></li>
+<li><a href="https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/aaa47e59-22b9-42b3-a89f-f8526c8db37f">Why we Need ...</a></li>
+<li><a href="https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/36769da8-9092-4342-b3b4-451aaa2cc80e#">Android Activity lifecycle</a></li>
+<li><a href="https://classroom.udacity.com/courses/ud851/lessons/ed13cc93-2861-43bf-b7ed-395a166ab975/concepts/9f8e379f-8bcc-419a-849f-4307eefbd047#">Reto</a></li>
+</ul>
+<h2 id="adding-more-activities">Adding more Activities</h2>
+<p>Now, we will go through Chapter 5 of the Nerd Wranch Guide. Here, you will learn how to add more activities to your app. Specifically, we will add a <code>Cheat</code> button to your quiz app from two sections ago. This will provide the answer to a question on a new page (Activity). To accomplish this, you must first create a new activity for the cheat page and construct the views for it.</p>
+<p>Next, you should go thorough the sections <code>Starting an Activity</code> and <code>Passing Data between Activities</code>. These sections elaborate how to start new activities using <em>Intents</em>, and how to communicate and pass data between them using <em>Intent Extras</em>.</p>
