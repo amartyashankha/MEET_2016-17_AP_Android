@@ -76,6 +76,8 @@ Now, we will go through Chapter 5 of the Nerd Wranch Guide. Here, you will learn
 
 Next, you should go thorough the sections `Starting an Activity` and `Passing Data between Activities`. These sections elaborate how to start new activities using *Intents*, and how to communicate and pass data between them using *Intent Extras*.
 
+![Final Quiz App](DynamicViews/cheat.png)
+
 ##Advanced Layout (More Practice with Listeners)
 This section is optional, but will gie you a good introduction to using UI fragments. You will also use more listeners to update objects in your program.
 
@@ -83,13 +85,14 @@ You can feel free to skip ahead to the next section which will use this code. Th
 
 In this section we will create the basic UI fragment for the Criminal Intent App. You should follow the directions in the BNR Guide Chapters 7 and 8. In Chapter 7, you wil create the very basic UI fragment, and use a text listener to update a value in the Crime object. In the following chapter, you will add more elements to the UI fragment, and set up more listeners corresponding to additional fields in the Crime object.
 
+![Layout for Criminal Intent Crime](AdvancedLayout/CrimeLayout.png)
+
 ##Recycler View
 For this section, we will continue working on the Criminal Intent App. If you skipped the previous section, the code can be found in the `AdvancedLayout` folder.
 
 Go through Chapter 9 of the Big Nerd Ranch Guide. First you will create some basic View Holder sand adapters and use these to populate a scrolling Recycler View. Make sure you understand why we need  aRecycler View rather than just loading all the indivivual View objects into memory. Also, note how the Recycler View uses the View Holders and Adapters.
 
     Objective: By the end of this section, you should be able to create View Holders and Adapters, and work with Recycler Views.
-
 
 
 ##HTTP Requests and JSON
@@ -108,5 +111,6 @@ The data from github is a long string of JSON format data. Watch the lecture on 
 
 The most important [Exercise](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/82cd942e-462c-4518-bb14-61782ea86a73#) for this section uses HTTP requests to get weather data from the internet and populate our scrolling list. As before, you can optionally add [polish](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/d6dd3b5a-70c1-48ab-97d9-59ef9d10062f#) to your app.
 
+![Weather Data from HTTP Request](HTTP/HTTP.png)
 
 ##SQLite Databases
