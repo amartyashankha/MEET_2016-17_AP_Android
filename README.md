@@ -60,7 +60,7 @@ The next section (`Wiring up Widgets`) shows you how to get the references to th
 
 ##Dynamic Views (Model-View-Controller)
 
-In this section we will be coering the material in the Nerd Ranch Guide Chapter 2 up to *Updating the Controller View*. You will continue to work on the quiz app by adding more questions. The objective is to update the view so that it displays a new question upon pressing a *Next* button.
+In this section we will be covering the material in the Nerd Ranch Guide Chapter 2 up to *Updating the Controller View*. You will continue to work on the quiz app by adding more questions. The objective is to update the view so that it displays a new question upon pressing a *Next* button.
 
 ##Activity Lifecycle
 In order to understand the basics of Activity lifecycles, watch the first four lectures in the *lifecycle* section of the Udacity course.
@@ -84,4 +84,15 @@ You can feel free to skip ahead to the next section which will use this code. Th
 In this section we will create the basic UI fragment for the Criminal Intent App. You should follow the directions in the BNR Guide Chapters 7 and 8. In Chapter 7, you wil create the very basic UI fragment, and use a text listener to update a value in the Crime object. In the following chapter, you will add more elements to the UI fragment, and set up more listeners corresponding to additional fields in the Crime object.
 
 ##Recycler View
+For this section, we will continue working on the Criminal Intent App. If you skipped the previous section, the code can be found in the `AdvancedLayout` folder.
 
+Go through Chapter 9 of the Big Nerd Ranch Guide. First you will create some basic View Holder sand adapters and use these to populate a scrolling Recycler View. Make sure you understand why we need  aRecycler View rather than just loading all the indivivual View objects into memory. Also, note how the Recycler View uses the View Holders and Adapters.
+
+    Objective: By the end of this section, you should be able to create View Holders and Adapters, and work with Recycler Views.
+
+
+##SQLite Databases
+
+
+##HTTP Requests and JSON
+In this section we wil go back to the Udacity course and resume working on the Sunshine App.
