@@ -3,7 +3,9 @@
 <p>Android App Development Advanced project guide for MEET 2016-2017</p>
 <p>We will be following the Udacity course at <a href="https://www.udacity.com/course/new-android-fundamentals--ud851" class="uri">https://www.udacity.com/course/new-android-fundamentals--ud851</a>. Go ahead and create an account on Udacity and check out the material.</p>
 <p>Clone Repo</p>
-<p>Nerd Ranch Guide. Install epub reader.</p>
+<p>Download Nerd Ranch Guide. Install fbreader and open the <em>epub</em> file.</p>
+<pre><code>sudo apt-get install fbreader &amp;&amp; fbreader BNR.epub</code></pre>
+<p><a href="http://interactivepython.org/courselib/static/java4python/Java4Python.html">Java guide for Python programmers</a></p>
 <h2 id="installing-android-sdk">Installing Android SDK</h2>
 <p>Begin by downloading <a href="https://developer.android.com/studio/index.html">Android Studio</a>. and then follow the installation instructions in <a href="https://developer.android.com/studio/install.html" class="uri">https://developer.android.com/studio/install.html</a> to install the SDK.</p>
 <p><em>Note:</em> You will need to install some packages first. On Ubuntu, run in the terminal.</p>
@@ -28,6 +30,13 @@
 <h2 id="listeners-and-toasts">Listeners and Toasts</h2>
 <p>For this section we will create a new app. You should refer to the Nerd Ranch Guide Chapter 1. You have already seen how to create a basic application and add UI elements. The first steps are to create a basic layout. You can customize this and make it more elaborate if you want. Pay special attention to the section on <code>Creating String Resources</code>. After this, you will set IDs for each of your UI elements (in <code>Resources and Resource IDs</code>). As before, you will use these IDs to reference View objects later on.</p>
 <p>The next section (<code>Wiring up Widgets</code>) shows you how to get the references to the Buttons and then elaborates how to set up listeners for click events from the buttons. Finally, complete the section on Toasts and you should have a working app with a single quiz question.</p>
+<p><strong>Learning Outcomes</strong></p>
+<ul>
+<li>Creating and Using String Resources</li>
+<li>Creating and Using Resource IDs as references</li>
+<li>Setting up OnClick listeners.</li>
+<li>Using Toasts</li>
+</ul>
 <h2 id="dynamic-views-model-view-controller">Dynamic Views (Model-View-Controller)</h2>
 <p>In this section we will be coering the material in the Nerd Ranch Guide Chapter 2 up to <em>Updating the Controller View</em>. You will continue to work on the quiz app by adding more questions. The objective is to update the view so that it displays a new question upon pressing a <em>Next</em> button.</p>
 <h2 id="activity-lifecycle">Activity Lifecycle</h2>
@@ -41,3 +50,7 @@
 <h2 id="adding-more-activities">Adding more Activities</h2>
 <p>Now, we will go through Chapter 5 of the Nerd Wranch Guide. Here, you will learn how to add more activities to your app. Specifically, we will add a <code>Cheat</code> button to your quiz app from two sections ago. This will provide the answer to a question on a new page (Activity). To accomplish this, you must first create a new activity for the cheat page and construct the views for it.</p>
 <p>Next, you should go thorough the sections <code>Starting an Activity</code> and <code>Passing Data between Activities</code>. These sections elaborate how to start new activities using <em>Intents</em>, and how to communicate and pass data between them using <em>Intent Extras</em>.</p>
+<h2 id="advanced-layout-more-practce-with-listeners">Advanced Layout (More Practce with Listeners)</h2>
+<p>This section is optional, but will gie you a good introduction to using UI fragments. You will also use more listeners to update objects in your program.</p>
+<p>You can feel free to skip ahead to the next section which will use this code. This code can be found in the <code>AdvancedLayout</code> folder. If you choose to not write it yourself, you should at least read through and understand how the UI is set up, how it is updated in thejava code, and how the listners are used to change the <code>Crime</code> object values.</p>
+<p>In this section we will create the basic UI fragment for the Criminal Intent App. You should follow the directions in the BNR Guide Chapters 7 and 8.</p>

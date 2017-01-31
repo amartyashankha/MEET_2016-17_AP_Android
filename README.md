@@ -8,7 +8,11 @@ We will be following the Udacity course at <https://www.udacity.com/course/new-a
 
 Clone Repo
 
-Nerd Ranch Guide. Install epub reader.
+Download Nerd Ranch Guide. Install fbreader and open the *epub* file.
+
+    sudo apt-get install fbreader && fbreader BNR.epub
+
+[Java guide for Python programmers](http://interactivepython.org/courselib/static/java4python/Java4Python.html)
 
 ##Installing Android SDK
 
@@ -47,6 +51,13 @@ For this section we will create a new app. You should refer to the Nerd Ranch Gu
 
 The next section (`Wiring up Widgets`) shows you how to get the references to the Buttons and then elaborates how to set up listeners for click events from the buttons. Finally, complete the section on Toasts and you should have a working app with a single quiz question.
 
+**Learning Outcomes**
+
+* Creating and Using String Resources
+* Creating and Using Resource IDs as references
+* Setting up OnClick listeners.
+* Using Toasts
+
 ##Dynamic Views (Model-View-Controller)
 
 In this section we will be coering the material in the Nerd Ranch Guide Chapter 2 up to *Updating the Controller View*. You will continue to work on the quiz app by adding more questions. The objective is to update the view so that it displays a new question upon pressing a *Next* button.
@@ -65,4 +76,12 @@ Now, we will go through Chapter 5 of the Nerd Wranch Guide. Here, you will learn
 
 Next, you should go thorough the sections `Starting an Activity` and `Passing Data between Activities`. These sections elaborate how to start new activities using *Intents*, and how to communicate and pass data between them using *Intent Extras*.
 
+##Advanced Layout (More Practice with Listeners)
+This section is optional, but will gie you a good introduction to using UI fragments. You will also use more listeners to update objects in your program.
+
+You can feel free to skip ahead to the next section which will use this code. This code can be found in the `AdvancedLayout` folder. If you choose to not write it yourself, you should at least read through and understand how the UI is set up, how it is updated in thejava code, and how the listners are used to change the `Crime` object values.
+
+In this section we will create the basic UI fragment for the Criminal Intent App. You should follow the directions in the BNR Guide Chapters 7 and 8. In Chapter 7, you wil create the very basic UI fragment, and use a text listener to update a value in the Crime object. In the following chapter, you will add more elements to the UI fragment, and set up more listeners corresponding to additional fields in the Crime object.
+
+##Recycler View
 
