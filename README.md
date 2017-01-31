@@ -94,6 +94,7 @@ Go through Chapter 9 of the Big Nerd Ranch Guide. First you will create some bas
 
     Objective: By the end of this section, you should be able to create View Holders and Adapters, and work with Recycler Views.
 
+![Recycler View for Crimes](RecyclerView/recycler.png)
 
 ##HTTP Requests and JSON
 In this section we will go back to the Udacity course and resume working on the Sunshine App. You will learn how to make HTTP requests to get weather data from the internet in JSON format, Yu will also learn to parse the JSON data and display it in the app.
