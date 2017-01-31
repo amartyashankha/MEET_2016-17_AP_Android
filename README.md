@@ -91,8 +91,22 @@ Go through Chapter 9 of the Big Nerd Ranch Guide. First you will create some bas
     Objective: By the end of this section, you should be able to create View Holders and Adapters, and work with Recycler Views.
 
 
-##SQLite Databases
-
 
 ##HTTP Requests and JSON
-In this section we wil go back to the Udacity course and resume working on the Sunshine App.
+In this section we will go back to the Udacity course and resume working on the Sunshine App. You will learn how to make HTTP requests to get weather data from the internet in JSON format, Yu will also learn to parse the JSON data and display it in the app.
+
+###Making an HTTP Request
+Watch the two lectures [Making an HTTP Request](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/195163c8-abbb-424a-90ab-2ee6d07720a3#) and [Permissions](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/8ef25888-bcf3-4dcd-aff2-ab75db99daa5#). After this, do the [Exercise](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/d8ef20e6-8d9f-454b-850a-896bff47a627#) on *Connecting to the Internet*.
+
+###Using AsyncTask
+The previous method fails because you cannot make a network request on the main thread. Watch the lectures on [Thread Basics](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/dcae6dc4-bdf0-4c93-b70c-09cd47ff2d09#) and [AsyncTasks](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/72597e43-7640-4290-bba2-bd5b57add22b#). Now, use this new framework to complete the [Exercise](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/1cde0c2f-18e7-4528-8610-bfb04a81fe9c#).
+
+Optional : Clean up your App by going through the [Exercise](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/591ff476-467a-4696-8501-3b6fa465118c#) on Polish.
+
+###JSON format
+The data from github is a long string of JSON format data. Watch the lecture on [JSON Format](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/efd15f16-1716-4e58-b64a-07db817743b2#). There are many resources to understand JSOn online. [For example](http://www.w3schools.com/js/js_json_intro.asp). For the final exercise, you will have to parse the incoming JSON weather data to display in your app.
+
+The most important [Exercise](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/82cd942e-462c-4518-bb14-61782ea86a73#) for this section uses HTTP requests to get weather data from the internet and populate our scrolling list. As before, you can optionally add [polish](https://classroom.udacity.com/courses/ud851/lessons/e5d74e43-743c-455e-9a70-7545a2da9783/concepts/d6dd3b5a-70c1-48ab-97d9-59ef9d10062f#) to your app.
+
+
+##SQLite Databases
